@@ -9,7 +9,7 @@ android_binary(
 
 android_library(
     name = "activities",
-    srcs = glob(["app/src/main/java/com/nullpointerbay/bazel/bazeltest/*.java"]),
+    srcs = glob(["app/src/main/java/com/nullpointerbay/bazeltest/*.java"]),
     manifest = "app/src/main/AndroidManifest.xml",
     custom_package = "com.nullpointerbay.bazeltest",
     resource_files = glob(["app/src/main/res/**"]),
