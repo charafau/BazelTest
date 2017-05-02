@@ -1,8 +1,6 @@
 # BazelTest
 sample bazel with gradle android project
 
-this doesnt work yet (compiles but got an error when starts)
-
 sample `WORKSPACE` file:
 
 ```
